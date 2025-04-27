@@ -1,6 +1,7 @@
 "use client";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { useState, useStatep } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 function Square({ value, onClick}) {
   return ( 
